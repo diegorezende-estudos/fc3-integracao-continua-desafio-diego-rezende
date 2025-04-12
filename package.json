@@ -1,0 +1,16 @@
+{
+  "name": "diego-rezende-ci-desafio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "author": "Diego Rezende",
+  "license": "ISC",
+  "description": "FC3 Integracao Contínua Desafio",
+  "dependencies": {
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "sonar-scanner": "^3.1.0"
+  }
+}
