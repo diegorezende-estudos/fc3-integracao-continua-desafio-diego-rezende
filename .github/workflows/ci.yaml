@@ -1,6 +1,6 @@
 name: ci-fc3-desafio-diego-rezende
 on:
-  pull-request:
+  pull_request:
     branches:
       - develop
 
