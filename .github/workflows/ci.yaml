@@ -1,5 +1,5 @@
 name: ci-fc3-desafio-diego-rezende
-on:
+on: 
   pull_request:
     branches:
       - develop
@@ -18,3 +18,8 @@ jobs:
 
       - name: Run tests
         run: npm test
+
+      - name: SonarCloud - SonarQube Scan
+        uses: SonarSource/sonarqube-scan-action@v5
+        env:
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
