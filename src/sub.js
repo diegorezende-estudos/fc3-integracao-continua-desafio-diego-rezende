@@ -21,4 +21,12 @@ function subSix(a,b, c, d, e, f){
 function subSeven(a,b, c, d, e, f, g){
     return a - b - c - d - e - f - g;
 }
-module.exports= sub;
+
+module.exports = {
+    sub,
+    subThree,
+    subFour,
+    subFive,
+    subSix,
+    subSeven
+};
