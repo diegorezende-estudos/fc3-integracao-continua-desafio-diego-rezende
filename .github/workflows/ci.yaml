@@ -17,8 +17,8 @@ jobs:
         run: npm install
 
       - name: Run tests
-        run: npm test
-
+        run: npx jest --coverage
+        
       - name: SonarCloud - SonarQube Scan
         uses: SonarSource/sonarqube-scan-action@v5
         env:
